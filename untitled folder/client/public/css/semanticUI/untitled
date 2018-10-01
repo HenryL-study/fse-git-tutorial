@@ -1,0 +1,40 @@
+/*--- custom ---*/
+
+.ui.custom.labels .label,
+.ui.custom.label {
+  background-color: #d2b8a6 !important;
+  border-color: #A5673F !important;
+  color: #FFFFFF !important;
+}
+
+/* Link */
+.ui.custom.labels .label:hover,
+a.ui.custom.label:hover {
+  background-color: #975b33 !important;
+  border-color: #975b33 !important;
+  color: #FFFFFF !important;
+}
+
+/* Corner */
+.ui.custom.corner.label,
+.ui.custom.corner.label:hover {
+  background-color: transparent !important;
+}
+
+/* Ribbon */
+.ui.custom.ribbon.label {
+  border-color: #805031 !important;
+}
+
+/* Basic */
+.ui.basic.custom.label {
+  background-color: #FFFFFF !important;
+  color: #A5673F !important;
+  border-color: #A5673F !important;
+}
+.ui.basic.custom.labels a.label:hover,
+a.ui.basic.custom.label:hover {
+  background-color: #FFFFFF !important;
+  color: #975b33 !important;
+  border-color: #975b33 !important;
+}

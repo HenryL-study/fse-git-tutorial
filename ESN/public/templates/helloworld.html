@@ -1,0 +1,17 @@
+<div class="container">
+	<div class="row">
+		<div class="col-12">
+			<h1>Angular and two way binding</h1>
+		</div>
+		<div class="spacer"></div>
+		<div class="col-12">
+			<input class="form-control" type="text" ng-model="helloMessage" placeholder="Type your message here!">
+		</div>
+		<div class="spacer"></div>
+		<div class="col-12" ng-if="helloMessage">
+			<div class="alert alert-primary" role="alert">
+				{{helloMessage}}
+			</div>	
+		</div>
+	</div>
+</div>

@@ -1,0 +1,24 @@
+{
+  "name": "angular-recitation",
+  "version": "1.0.0",
+  "description": "Angular Recitation for FSE s18",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmusv-fse/angular-recitation-s18.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmusv-fse/angular-recitation-s18/issues"
+  },
+  "homepage": "https://github.com/cmusv-fse/angular-recitation-s18#readme",
+  "dependencies": {
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "morgan": "~1.9.0"
+  }
+}
